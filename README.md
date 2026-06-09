@@ -69,7 +69,9 @@ Reconciliation-first development. Every aggregation in the cube was verified to 
 Statistical rigor for decision rules. Power analysis used to derive minimum sample sizes per layer of analysis; decay thresholds derived from observed variance, not chosen arbitrarily.
 
 
-Repository structure
+## Repository structure
+
+\`\`\`
 .
 ├── README.md                       This file
 ├── docs/
@@ -82,6 +84,7 @@ Repository structure
 │   └── sample_queries.sql          Canonical analytical patterns
 └── scripts/
     └── weekly_report_builder.js    Node.js report generator (sanitized template)
+\`\`\`
 
 What this repository is — and isn't
 It is: An architecture and methodology reference. The SQL design, the cohort definitions, the report-generation approach, and the decision rationale.
